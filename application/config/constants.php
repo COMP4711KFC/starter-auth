@@ -7,6 +7,10 @@ if (!defined('BASEPATH'))
 define('DATAPATH', './data/');
 define('XMLSUFFIX', '.xml');
 
+// define user roles for authentication purposes
+define('ROLE_USER','user');
+define('ROLE_ADMIN','admin');
+
 /*
   |--------------------------------------------------------------------------
   | File Stream Modes
