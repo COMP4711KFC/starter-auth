@@ -9,10 +9,6 @@ define('XMLSUFFIX', '.xml');
 define('ROLE_USER','user');
 define('ROLE_ADMIN','admin');
 
-// define user roles for authentication purposes
-define('ROLE_USER','user');
-define('ROLE_ADMIN','admin');
-
 /*
   |--------------------------------------------------------------------------
   | File Stream Modes
