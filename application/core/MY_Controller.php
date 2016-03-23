@@ -51,6 +51,9 @@ class Application extends CI_Controller {
 		$choices[] = array('name' => "Alpha", 'link' => '/alpha');
 		$choices[] = array('name' => "Beta", 'link' => '/beta');
 		$choices[] = array('name' => "Gamma", 'link' => '/gamma');
+                
+                $choices[] = array('name' => "Login", 'link' => '/auth');
+                $choices[] = array('name' => "Logout", 'link' => '/auth/logout');
 		return $choices;
 	}
 
